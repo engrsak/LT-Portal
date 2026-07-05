@@ -1,0 +1,6 @@
+{
+  "name": "LT Portal",
+  "description": "LT Portal - The File Tracking Tool for Sri Lankan AG offices to track letters and taken action.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
