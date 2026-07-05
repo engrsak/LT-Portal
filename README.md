@@ -4,8 +4,6 @@ A modern Letters Tracking & Office Workflow Management System designed for Secre
 
 LT Portal helps eliminate lost documents, improve accountability, and provide real-time visibility of all incoming and outgoing correspondence.
 
----
-
 ## Key Features
 
 - Incoming & Outgoing Letter Management
@@ -19,7 +17,6 @@ LT Portal helps eliminate lost documents, improve accountability, and provide re
 - Centralized Digital Document System
 - Full Transparency & Accountability
 
----
 
 ## Problem It Solves
 
@@ -31,7 +28,6 @@ LT Portal helps eliminate lost documents, improve accountability, and provide re
 
 LT Portal digitizes the entire process and ensures every action is tracked and visible.
 
----
 
 ## Installation Guide
 
@@ -40,13 +36,11 @@ LT Portal digitizes the entire process and ensures every action is tracked and v
 git clone https://github.com/engrsak/LT-Portal.git  
 cd LT-Portal  
 
----
 
 ### 2. Install Dependencies
 
 npm install  
 
----
 
 ### 3. Setup Environment Variables
 
@@ -60,7 +54,6 @@ DB_NAME=lt_portal
 JWT_SECRET=your_secret_key  
 AI_API_KEY=your_ai_key_if_needed  
 
----
 
 ### 4. Database Setup
 
@@ -69,7 +62,6 @@ OR run migration if available:
 
 npm run migrate  
 
----
 
 ### 5. Run Development Server
 
@@ -78,33 +70,12 @@ npm run dev
 Application will run at:
 http://localhost:3000  
 
----
 
 ## Production Build
 
 npm run build  
 npm start  
 
----
-
-## Project Structure
-
-LT-Portal/
-├── src/
-│   ├── controllers/
-│   ├── routes/
-│   ├── services/
-│   ├── models/
-│   ├── middleware/
-│
-├── public/
-├── views/
-├── dist/
-├── .env
-├── package.json
-└── README.md
-
----
 
 ## Security Features
 
@@ -113,13 +84,6 @@ LT-Portal/
 - Activity logging per user
 - Protected API routes
 
----
 
 ## License
-If you want next upgrade, I can make this:
-- GitHub “premium README” with badges + shields
-- Screenshot section layout for your UI
-- GIF demo section (very powerful for government sales)
-- architecture diagram (Node + DB + AI flow)
-
-Just tell me 👍
+MIT
